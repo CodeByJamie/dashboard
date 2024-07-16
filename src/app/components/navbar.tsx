@@ -90,7 +90,7 @@ const Navbar = () => {
 					<a
 						href='/login'
 						className='relative px-5 py-2 hover:pl-6 bg-opacity-hover text-slate-400 mt-[100%]'>
-						<i className='fa-solid fa-plus'></i> Login
+						<i className='fa-solid fa-plus'></i> Logout
 					</a>
 				</div>
 			</aside>
