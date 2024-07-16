@@ -27,15 +27,15 @@ export default async function Home() {
 				</header>
 				<div className='flex flex-col items-center'>
 					<div className='flex flex-row items-center gap-x-7 justify-center'>
+						<div className="flex flex-col items-center text-xl gap-y-2" id="cat">
 						<img src='/cat.png' alt='Catnips pfp' className='rounded-full w-[100px] h-[100px]' />
-						<i className='fa-solid fa-x text-2xl text-slate-500 ml-1'></i>
-						<img src='/blob (2).png' alt='' className='w-[100px]' />
-					</div>
-
-					<div className='flex flex-row font-semibold text-xl text-slate-500 gap-x-12'>
 						<span className='bg-gradient-to-r from-purple-500 to-pink-300 bg-clip-text text-transparent'>Catnip</span>
-            <i className='fa-solid fa-x text-2xl text-slate-500'></i>
-						<span className='bg-gradient-to-r from-sky-500 to-sky-300 bg-clip-text text-transparent'>Jamie</span>
+						</div>
+						<i className='fa-solid fa-x text-2xl text-slate-500 ml-1'></i>
+						<div className="flex flex-col items-center gap-y-2">
+						<img src='/blob.png' alt='' className='w-[100px] h-[100px] border-zinc-950 border-2 bg-zinc-900 rounded-full' />
+						<span className='text-xl bg-gradient-to-r from-sky-500 to-sky-300 bg-clip-text text-transparent'>Jamie</span>
+						</div>
 					</div>
 				</div>
 			</div>
